@@ -1,0 +1,11 @@
+{
+  "subType" : "customapp",
+  "description" : "SampleWebTest",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "Mockservice",
+    "version" : "1.0",
+    "etag" : "e2a326e7-eb04-4a5e-9aa4-5b8cce68f4de"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

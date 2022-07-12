@@ -1,0 +1,35 @@
+{
+    "AS_Button_j5a2a50e787c4b64a2ddf0b9dac59aa3": {
+        "id": "AS_Button_j5a2a50e787c4b64a2ddf0b9dac59aa3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f76516323f684f8881634716d7f0dc46"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_SERVICE_ceb16163756c4ff2a3d24dcc97803063",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "Mockservice",
+                "serviceid": "052897a3-6c65-48cb-be48-d062fe4c4e78",
+                "type": "integration",
+                "operationname": "NewOperation",
+                "operationid": "18231"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}
